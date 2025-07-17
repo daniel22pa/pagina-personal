@@ -1,0 +1,57 @@
+/* Fondo general */
+body {
+  background-color: #e6f0ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Estilo del pie de página */
+footer {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Secciones del contenido principal */
+main {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #1a5276;
+}
+
+/* Márgenes entre secciones */
+section {
+  margin-bottom: 20px;
+}
+
+.resaltado {
+  background-color: #f0f9ff;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 128, 255, 0.2);
+}
